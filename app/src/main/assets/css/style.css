@@ -1,0 +1,217 @@
+.bg-black {
+  background-color: black !important;
+}
+
+.pic {
+  margin-top: 2rem;
+  margin-right: 0.3rem;
+}
+
+.specButton {
+  margin-top: 15px !important;
+  width: 22.5rem !important;
+}
+
+.submit {
+  /* background: rgb(65, 167, 65); */
+  font-size: 18px;
+  font-weight: 900;
+  /* background-image: url("../images/greenglass.jpg"); */
+  background: linear-gradient(
+    0.3turn,
+    rgba(16, 115, 6, 1) 0%,
+    rgba(58, 193, 9, 1) 35%,
+    rgba(16, 115, 6, 1) 100%
+  );
+  box-shadow: 0px 0px 6px 2px #ffffff;
+  background-size: cover;
+  color: black;
+  border: solid black 2px;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: white !important;
+  box-shadow: 0px 0px 12px white inset !important;
+  background-color: black !important;
+}
+
+.modalInput {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 0px 12px white inset;
+  background-color: black;
+}
+
+.eighths {
+  position: absolute;
+  right: 40px;
+  font-size: 20px;
+  color: rgb(101, 192, 10);
+}
+
+.sixteenths {
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  color: rgb(101, 192, 10);
+}
+
+.alertText {
+  font-size: medium;
+}
+
+.alertText2 {
+  color: red;
+  font-size: x-large;
+}
+
+.alertText3 {
+  color: green;
+  font-size: x-large;
+}
+
+.p-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 100% !important;
+}
+
+.modal-width100 {
+  width: 100% !important;
+}
+
+.clearBack {
+  background: linear-gradient(
+    0.3turn,
+    rgb(115, 6, 6) 0%,
+    rgb(193, 9, 9) 35%,
+    rgb(115, 6, 6) 100%
+  ) !important;
+}
+
+.equal {
+  background: linear-gradient(
+    0.3turn,
+    rgb(6, 35, 115) 0%,
+    rgb(9, 83, 193) 35%,
+    rgb(6, 35, 115) 100%
+  ) !important;
+}
+
+.uncommon {
+  background: linear-gradient(
+    0.3turn,
+    rgb(115, 113, 6) 0%,
+    rgb(193, 175, 9) 35%,
+    rgb(115, 113, 6) 100%
+  ) !important;
+}
+
+.symbols {
+  background: linear-gradient(
+    0.3turn,
+    rgb(115, 6, 57) 0%,
+    rgb(193, 9, 132) 35%,
+    rgb(115, 6, 57) 100%
+  ) !important;
+}
+
+input[type="button"] {
+  /* background-image: url("../images/greenglass.jpg"); */
+  background: linear-gradient(
+    0.3turn,
+    rgba(16, 115, 6, 1) 0%,
+    rgba(58, 193, 9, 1) 35%,
+    rgba(16, 115, 6, 1) 100%
+  );
+  box-shadow: 0px 0px 6px 2px #ffffff;
+  background-size: cover;
+  color: black;
+  border: solid black 2px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  width: 4.5rem;
+  height: 3rem;
+  margin: 0px;
+}
+
+input[type="button"]:hover {
+  background-color: #003300;
+  color: white;
+}
+
+.mainInput {
+  position: relative;
+  display: block;
+  margin: 5px auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0px 0px 12px white inset;
+  background-color: black;
+}
+
+.blocks {
+  border: solid 2px black;
+  height: 15px;
+  width: 45px;
+}
+
+.triangleRow {
+  height: 100px;
+}
+
+.img {
+  background-image: url("../images/right-triangle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 375px;
+  height: 250px;
+}
+
+.warning {
+  color: red;
+  font-size: large;
+}
+
+@media only screen and (max-width: 400px) {
+  input[type="button"] {
+    /* background-image: url("../images/greenglass.jpg"); */
+    background: linear-gradient(
+    0.3turn,
+    rgba(16, 115, 6, 1) 0%,
+    rgba(58, 193, 9, 1) 35%,
+    rgba(16, 115, 6, 1) 100%
+  );
+  box-shadow: 0px 0px 6px 2px #ffffff;
+    background-size: cover;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+    width: 4rem;
+    height: 3rem;
+    margin: 0px;
+  }
+
+  .specButton {
+    margin-top: 15px !important;
+    width: 20rem !important;
+  }
+}
+
+@media only screen and (min-height: 731px) {
+  .mt-tall {
+    margin-top: 5%;
+  }
+}

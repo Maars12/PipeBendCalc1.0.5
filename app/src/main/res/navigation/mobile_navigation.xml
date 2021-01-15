@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/mobile_navigation"
+  app:startDestination="@+id/navigation_calc">
+
+  <fragment
+    android:id="@+id/navigation_calc"
+    android:label="@string/title_home"
+    android:name="edu.cnm.deepdive.pipebendcalc105.ui.calc.CalcFragment"
+    tools:layout="@layout/fragment_calc"/>
+
+  <fragment
+    android:id="@+id/navigation_right_triangle"
+    android:label="@string/title_dashboard"
+    android:name="edu.cnm.deepdive.pipebendcalc105.ui.right_triangle.RightTriangleFragment"
+    tools:layout="@layout/fragment_right_triangle"/>
+
+<!--  <fragment-->
+<!--    android:id="@+id/navigation_notifications"-->
+<!--    android:label="@string/title_notifications"-->
+<!--    android:name="edu.cnm.deepdive.pipebendcalc105.ui.notifications.NotificationsFragment"-->
+<!--    tools:layout="@layout/fragment_notifications"/>-->
+</navigation>

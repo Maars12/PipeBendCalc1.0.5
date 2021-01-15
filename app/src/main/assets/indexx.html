@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+
+
+  <title>Right Tri Calc</title>
+</head>
+<body>
+<div class=" container-fluid">
+
+  <div class="row">
+    <div class="col p-0 text-center">
+      <form name="form" id="form">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10 mb-2 img d-flex justify-content-center"></div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>&nbsp;&nbsp;Side A
+              <input type="text" id="sideA" name="sideA" class="inputA" size="8"/>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>&nbsp;&nbsp;Side B
+              <input type="text" id="sideB" name="sideB" class="inputA" size="8"/>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>&nbsp;&nbsp;Side C
+              <input type="text" id="sideC" name="sideC" class="inputA" size="8"/>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>Angle a
+              <input type="text" id="angleA" name="angleA" class="inputA" size="8"/>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>Angle b
+              <input type="text" id="angleB" name="angleB" class="inputA" size="8"/>
+            </h3>
+          </div>
+        </div>
+        <div class="warning">*Make sure only two fields are filled before calculation*</div>
+        <br>
+        <input type="button" id="butCalculate" name="butCalculate" value="Calculate"
+               onclick="return butCalculate_onClick()"/>
+        <input type="button" id="clear" name="clear" value="Clear" onclick="clearForm()"/>
+      </form>
+    </div>
+  </div>
+  <div class="row m-0">
+    <div class="col p-1 eighths d-flex justify-content-end m-0">
+      Eighths </br>
+      1/8 = 0.125 </br>
+      1/4 = 0.250 </br>
+      3/8 = 0.375 </br>
+      1/2 = 0.500 </br>
+      5/8 = 0.625 </br>
+      3/4 = 0.750 </br>
+      7/8 = 0.875 </br>
+    </div>
+    <div class="col p-1 sixteenths d-flex justify-content-start m-0">
+      Sixteenths </br>
+      1/16 = 0.0625 </br>
+      3/16 = 0.1875 </br>
+      5/16 = 0.3125 </br>
+      7/16 = 0.4375 </br>
+      9/16 = 0.5625 </br>
+      11/16 = 0.6875 </br>
+      13/16 = 0.8125 </br>
+      15/16 = 0.9375 </br>
+    </div>
+  </div>
+</div>
+
+<script src="./js/jQueryslim.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="js/rtScript.js"></script>
+
+</body>
+</html>
