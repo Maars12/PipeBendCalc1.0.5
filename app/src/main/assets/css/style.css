@@ -1,3 +1,5 @@
+
+
 .bg-black {
   background-color: black !important;
 }
@@ -182,6 +184,10 @@ input[type="button"]:hover {
 .warning {
   color: red;
   font-size: large;
+}
+
+#butCalculate {
+  width: 105px;
 }
 
 @media only screen and (max-width: 400px) {
